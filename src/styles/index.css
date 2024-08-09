@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "HarmonyOS_Sans";
+  src: url("./fonts/HarmonyOS_Sans_Medium.ttf") format("ttf");
+}
+
+* {
+  font-family: HarmonyOS_Sans, sans-serif;
+}
